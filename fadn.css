@@ -1,0 +1,33 @@
+.fadein{
+    animation: fadeIn 5s;
+}
+.fadeinimage {
+    animation: fadeIn 10s;
+}
+@keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity: 1;}
+    
+}
+@keyframes fadeinimage{
+    0%{opacity:0;}
+    100%{opacity: 1;}
+}
+img{
+    animation: fadeIn 10s;
+}
+@keyframes fadeBackground {
+    from { background-color: #fcc67f; }
+    to { background-color: #2eb0b0; }
+  }
+.small{
+    zoom: 100%;
+}
+h2:hover{
+    zoom:120%;
+}
+img:hover{
+    zoom:125%;
+}
+
+
